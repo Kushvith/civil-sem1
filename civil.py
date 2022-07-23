@@ -89,33 +89,33 @@ while(i>0):
         c = float(input('extra distance from x axis')) 
         d = float(input('extra distance wrt y axis')) 
         print(rect(a, b, c, d))
-    if(inputs =='2'):
+    elif(inputs =='2'):
         a = float(input('enter the width')) 
         b= float(input('enter the heigth')) 
         c = float(input('extra distance from x axis')) 
         d = float(input('extra distance wrt y axis')) 
         print(triangle(a, b, c, d)) 
     
-    if(inputs =='3'):
+    elif(inputs =='3'):
         a = float(input('enter the width')) 
        
         c = float(input('extra distance from x axis')) 
         d = float(input('extra distance wrt y axis')) 
         print(circle(a, c, d)) 
     
-    if(inputs =='4'):
+    elif(inputs =='4'):
         a = float(input('enter the width')) 
        
         c = float(input('extra distance from x axis')) 
         d = float(input('extra distance wrt y axis')) 
         print(semicircle(a, c, d)) 
-    if(inputs =='5'):
+    elif(inputs =='5'):
         a = float(input('enter the width')) 
        
         c = float(input('extra distance from x axis')) 
         d = float(input('extra distance wrt y axis')) 
         print(quadcircle(a, c, d)) 
-    if(inputs == 'q'):
+    elif(inputs == 'q'):
         break
     else:
         print("invalid input 😘") 
